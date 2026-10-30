@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ur 시리즈 — 시험 페이지</title>
+<meta name="description" content="ur 시리즈 소개 사이트를 준비하고 있어요. 지금은 시험용 페이지예요.">
+<!-- 시험용: 정식 소개 페이지가 생기기 전까지 검색에 내보내지 않는다 -->
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="ur-design/ur-tokens.css">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: var(--ur-space-24);
+    background: var(--ur-bg-app);
+    color: var(--ur-text-primary);
+    font-family: var(--ur-font-sans);
+    font-size: var(--ur-text-body-size);
+    line-height: var(--ur-text-body-line);
+    word-break: keep-all;
+  }
+  main {
+    width: 100%;
+    max-width: 520px;
+    padding: var(--ur-space-40) var(--ur-space-32);
+    border-radius: var(--ur-radius-xl);
+    background: var(--ur-bg-surface);
+    border: 1px solid var(--ur-border-subtle);
+    box-shadow: var(--ur-shadow-md);
+    text-align: center;
+  }
+  .badge {
+    display: inline-block;
+    padding: var(--ur-space-4) var(--ur-space-12);
+    border-radius: var(--ur-radius-full);
+    background: var(--ur-accent-subtle);
+    color: var(--ur-accent-default);
+    font-size: var(--ur-text-label-size);
+    font-weight: var(--ur-text-label-weight);
+  }
+  h1 {
+    margin: var(--ur-space-16) 0 var(--ur-space-8);
+    font-size: var(--ur-text-display-size);
+    line-height: var(--ur-text-display-line);
+    font-weight: var(--ur-text-display-weight);
+    letter-spacing: var(--ur-text-display-tracking);
+  }
+  .meaning { margin: 0; color: var(--ur-text-secondary); }
+  .meaning b { color: var(--ur-accent-default); }
+  .note {
+    margin: var(--ur-space-24) 0 0;
+    padding-top: var(--ur-space-20);
+    border-top: 1px solid var(--ur-border-subtle);
+    color: var(--ur-text-tertiary);
+    font-size: var(--ur-text-body-sm-size);
+  }
+  footer { margin-top: var(--ur-space-20); color: var(--ur-text-tertiary); font-size: var(--ur-text-caption-size); }
+</style>
+</head>
+<body>
+<main>
+  <span class="badge">시험 페이지</span>
+  <h1>ur 시리즈</h1>
+  <p class="meaning"><b>ur</b>은 <b>Your</b>의 줄임말이에요. 너를 위한 작은 도구들.</p>
+  <p class="note">ur 시리즈 소개를 이곳에서 준비하고 있어요. 지금 보이는 페이지는 사이트가 잘 열리는지 확인하는 시험용이에요.</p>
+  <footer>© 2026 강경미, 김성박</footer>
+</main>
+</body>
+</html>
