@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ur 시리즈 — UrAI</title>
+<meta name="robots" content="noindex">
+<!-- 이 사이트는 따로 운영하지 않는다(소유자 2026-11-15). 옛 주소(예: 이미 설치된 UrBuddy가 여는 /apps/<앱>/)를 urai.kr 의 같은 경로로 넘긴다. -->
+<script>
+(function () {
+  var p = location.pathname.replace(/\/+$/, "");
+  var m = p.match(/^\/apps\/([a-z][a-z0-9-]{1,31})$/);
+  var target = m ? "https://urai.kr/apps/" + m[1] : "https://urai.kr/apps";
+  location.replace(target);
+})();
+</script>
+<link rel="stylesheet" href="/ur-design/ur-tokens.css">
+<style>
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px;
+         background: var(--ur-bg-app); color: var(--ur-text-primary); font-family: var(--ur-font-sans); word-break: keep-all; }
+  a { color: var(--ur-accent-fg); font-weight: 700; }
+</style>
+</head>
+<body>
+  <p>ur 시리즈는 <a href="https://urai.kr/apps">urai.kr</a>로 옮겼어요. 바로 넘어가지 않으면 이 링크를 눌러 주세요.</p>
+</body>
+</html>
